@@ -1,5 +1,109 @@
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  border-top: 2px solid lightgrey;
+}
+.toboolist{
+   padding: 10px 5px 10px 20px;
+   height: 70px;
+}
+.title{
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Roboto', sans-serif;
+  vertical-align: middle;
+}
+.img{
+  vertical-align: middle;
+}
+
+.background{
+  background: rgba(245,245,245);
+  padding: 50px;
+  width: 100%;
+  height: 1200px;
+}
+.container{
+  background-color: white;
+   width: 70%;
+   height: 800px;
+   margin: 0px 15% 30px 15%;
+   padding: 10px 25px 0px 0px;
+}
+.containerhead{
+  border-bottom: 2px solid rgba(245,245,245);
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+.padding-left{
+  padding-left: 10%;
+  padding-top: 20px;
+}
+.button{
+  height: 25px;
+  line-height: 25px;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 4px;
+  font-size: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+.button-blue{
+  background-color: lightblue;
+  color: white;
+}
+.button-border{
+  color: rgba(215,215,215);
+  border: 1px solid rgba(215,215,215);
+}
+
+.titolo{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+}
+.li{
+  font-size: 20px;
+  font-family: 'Roboto',sans-serif;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.space{
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.v{
+  color: green;
+  border-color: green;
+}
+.x{
+  color: red;
+  border-color: red;
+}
+.editorial{
+  padding: 5px;
+  color: white;
+  font-size: 10px;
+  border-radius: 5px;
+}
+.e{
+  background-color: lightblue;
+}
+.violet{
+  background-color: violet;
+}
+.lightgreen{
+  background-color: lightgreen;
+}
+.orange{
+  background-color: orange;
 }
